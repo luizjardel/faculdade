@@ -22,7 +22,7 @@ printf("=== Cadastro de Territorios ===\n\n");
         printf("Digite o nome do territorio: ");
         scanf(" %[^\n]", territorios[i].nome);
 
-       
+    
         printf("Digite a cor do exercito: ");
         scanf("%s", territorios[i].cor);
 
@@ -33,7 +33,7 @@ printf("=== Cadastro de Territorios ===\n\n");
         printf("\n");
     }
 
-   
+
     printf("\n=== Territorios Cadastrados ===\n\n");
 
     for(i = 0; i < 5; i++) {
