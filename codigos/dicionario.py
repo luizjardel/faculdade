@@ -8,10 +8,10 @@ aluno = {
     "email": "luizjardel13@gmail.com"
     
 }
-print(aluno['nome'])
-print(aluno['idade'])
-print(aluno['curso'])
-print(aluno['semestre'])
+print(f"{aluno['nome']}")
+print(f"{aluno['idade']}")
+print(f"{aluno['curso']}")
+print(f"{aluno['semestre']}")
 print (type(aluno))
 
 aluno["semestre"] = "5"
@@ -19,6 +19,6 @@ print(aluno)
 
 aluno["nota"] = 7.0
 
-print(aluno['nome'])
-print(aluno['curso'])
-print(aluno['nota'])
+print(f"{aluno['nome']}")
+print(f"{aluno['curso']}")
+print(f"{aluno['nota']}")
