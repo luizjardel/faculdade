@@ -8,6 +8,7 @@ aluno = {
     "email": "luizjardel13@gmail.com"
     
 }
+
 print(f"{aluno['nome']}")
 print(f"{aluno['idade']}")
 print(f"{aluno['curso']}")
