@@ -24,7 +24,7 @@ Atualmente, este repositório possui exercícios utilizando principalmente:
 
 - 🐍 Python
 - 🔵 C
-## 🛠️ Observação: nao tem codígos em Java  por conta de eu preferir usar o InteliJJ pra isso entao meus codígos da minha Principal Stack que é Java + Springboot está ai no meu GitHUb
+## 🛠️ Observação: nao tem códigos em Java  por conta de eu preferir usar o InteliJJ pra isso entao meus códigos da minha Principal Stack que é Java + Springboot está ai no meu GitHub
 
 > Novas tecnologias e linguagens serão adicionadas conforme os conhecimentos da Faculdade
 
@@ -38,7 +38,6 @@ faculdade/
 ├── codigos/
 │   ├── Python/
 │   ├── C/
-│   ├── Java/
 │   └── ...
 │
 ├── .vscode/
