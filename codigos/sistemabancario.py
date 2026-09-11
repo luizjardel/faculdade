@@ -1,5 +1,4 @@
 import streamlit as st
-
 if "ContaBancaria" not in st.session_state:
     st.session_state.ContaBancaria = {
         "numero_conta": 0,
@@ -77,3 +76,6 @@ else:
 
 # Sistema Bancario em Python com base na Documentação do Python, atividade
 # que fiz com meu amigo, cada um fez sua parte de uma maneira diferente
+# Biblioteca utilizada : StreamLit
+# para baixar a biblioteca, utilize o comando: pip install streamlit
+# Para rodar o código, siga está ordem no terminal: cd codigos, streamlit run sistemabancaro.py
