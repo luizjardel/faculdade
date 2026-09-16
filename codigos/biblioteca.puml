@@ -1,0 +1,24 @@
+@startuml 
+
+
+class Usuario{
+    - String matricula
+    - String nome 
+    - String email
+    + cadastrar()
+    + solicitarEmprestimo(livro: Livro)
+    + devolverLivro(livro: Livro)
+
+}
+class Livro {
+    - String codigo
+    - String titulo 
+    - String autor 
+    - int anoPublicacao 
+    - boolean disponivel 
+    + cadastrar()
+    + consultar()
+    + atualizarStatus()
+}
+Usuario " 0.1" -- "0..*" Livro : empresta > 
+@enduml
