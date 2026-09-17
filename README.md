@@ -24,6 +24,7 @@ Atualmente, este repositório possui exercícios utilizando principalmente:
 
 - 🐍 Python
 - 🔵 C
+- Diagrama UML
 ## 🛠️ Observação: nao tem códigos em Java  por conta de eu preferir usar o InteliJJ pra isso entao meus códigos da minha Principal Stack que é Java + Springboot está ai no meu GitHub
 
 > Novas tecnologias e linguagens serão adicionadas conforme os conhecimentos da Faculdade
