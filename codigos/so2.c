@@ -5,7 +5,7 @@ int main() {
 
     // Arrays para armazenar as propriedades de cada processo
     int id[] = {1, 2, 3};          // PID dos processos
-    int tempo_exec[] = {5, 3, 8};  // Tempo de CPU (Burst Time)
+    int tempo_exec[]={100,2,1};  // Tempo de CPU (Burst Time) // Tempo de CPU (Burst Time)
     int tempo_espera[3];          // Tempo aguardando na fila
     int turnaround[3];            // Tempo total (espera + execução)
 
