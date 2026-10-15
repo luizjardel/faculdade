@@ -1,0 +1,36 @@
+@startuml
+title Sistema de Agendamento - Marcar consulta
+
+actor Paciente
+participant Sistema
+database "Banco de dados" as BD
+
+== Login ==
+Paciente -> Sistema : 1: acessar o sistema
+Sistema --> Paciente : 2: exibe tela de login
+Paciente -> Sistema : 3: login (e-mail e senha)
+Sistema -> BD : 4: validar credenciais
+BD --> Sistema : 5: credenciais válidas
+Sistema --> Paciente : 6: exibe especialidades
+
+== Especialidade e médico ==
+Paciente -> Sistema : 7: escolher especialidade
+Sistema -> BD : 8: buscar médicos
+BD --> Sistema : 9: lista de médicos
+Sistema --> Paciente : 10: exibe médicos
+Paciente -> Sistema : 11: escolher médico
+
+== Horários ==
+Sistema -> BD : 12: consultar horários
+BD --> Sistema : 13: horários livres
+Sistema --> Paciente : 14: exibe horários
+Paciente -> Sistema : 15: selecionar horário
+
+== Confirmação ==
+Sistema --> Paciente : 16: exibe resumo
+Paciente -> Sistema : 17: confirmar consulta
+Sistema -> BD : 18: registrar consulta
+BD --> Sistema : 19: consulta salva
+Sistema --> Paciente : 20: confirmação da consulta
+
+@enduml
