@@ -1,0 +1,71 @@
+@startuml Agendamento_de_Consulta_Com_Pagamento
+
+title Diagrama de Atividades - Agendamento de Consulta com Pagamento
+
+|Usuário|
+start
+:Acessa o sistema de agendamento;
+:Seleciona especialidade e médico;
+
+repeat
+|Sistema|
+:Busca e exibe a agenda e horários disponíveis;
+
+|Usuário|
+:Escolhe a data e horário desejados;
+:Solicita o agendamento;
+
+|Sistema|
+if (O horário ainda está livre?) then (Sim)
+    :Reserva temporariamente o horário;
+    break
+else (Não)
+    :Notifica que o horário já foi preenchido;
+endif
+repeat while (Deseja escolher outro horário?) is (Sim)
+
+|Usuário|
+:Seleciona a forma de pagamento (Cartão / Pix);
+:Informa os dados de pagamento / faz a transferência;
+
+|Sistema|
+:Processa a transação com o gateway de pagamento;
+
+if (Pagamento aprovado?) then (Sim)
+:Gera comprovante e envia solicitação ao atendente;
+
+|Médico/Atendente|
+:Recebe a solicitação no painel;
+if (Aprova a consulta?) then (Sim)
+    :Confirma o agendamento;
+    
+    |Sistema|
+    :Atualiza o status para "Agendado";
+    :Envia confirmação e comprovante ao usuário;
+    
+    |Usuário|
+    :Recebe a confirmação e o comprovante da consulta;
+    stop
+else (Não)
+|Médico/Atendente|
+:Rejeita o agendamento;
+
+|Sistema|
+:Processa o estorno do pagamento;
+:Notifica o usuário sobre o cancelamento e estorno;
+
+|Usuário|
+:Recebe aviso de cancelamento e reembolso;
+stop
+endif
+
+else (Não)
+|Sistema|
+:Exibe mensagem de falha no pagamento;
+:Libera a reserva temporária do horário;
+
+|Usuário|
+:Recebe notificação de erro no pagamento;
+stop
+endif
+@enduml
