@@ -1,4 +1,4 @@
-##Calculadora Feita para Treinar Logica de Programação!
+##Calculadora Feita para Treinar Logica de Programação ,feito na aula de UML
 
 print("----Calculadora Simples ----")
 
