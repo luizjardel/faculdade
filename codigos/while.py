@@ -15,6 +15,3 @@ while True:
 
     ## GGWP
 
-
-
-
