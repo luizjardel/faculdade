@@ -21,3 +21,4 @@ conta2.depositar(1000)
 
 print("\n--- LISTAGEM DE CONTAS ---")
 banco.listar_contas()
+##tarefa feita para aprender POO, com base no curso de Python do Gustavo Guanabara

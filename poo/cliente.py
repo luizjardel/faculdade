@@ -6,3 +6,5 @@ class Cliente:
     def exibir_dados(self):
         print(f"Nome: {self.nome}")
         print(f"CPF: {self.cpf}")
+
+    
