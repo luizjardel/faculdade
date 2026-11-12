@@ -8,4 +8,5 @@ function sacar(valor: number): number {
     if(valor >saldo){
         throw new Error("Saldo insuficiente!");
     }
+    //amanha termino
 }
