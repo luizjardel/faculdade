@@ -1,6 +1,10 @@
 # 🚀 Roadmap de Estudos — TypeScript
 
-**Objetivo:** Aprender TypeScript desde os fundamentos até o desenvolvimento de aplicações e APIs, construindo projetos práticos durante o processo.
+**Objetivo:** Aprender TypeScript desde os fundamentos até o desenvolvimento de aplicações e APIs, construindo projetos práticos durante o processo
+
+**Observação:**Esta pasta  nao tem nenhuma relação com a faculdade e sim é pra foco pessoal
+pois quero aprender Typescript e futuramente Kotlin!!
+#
 
 **Foco:** Desenvolvimento de Software, Backend e Full Stack.
 
@@ -8,15 +12,15 @@
 
 # Fase 0 — Preparação do ambiente
 
-- [ ] Entender o que é TypeScript.
-- [ ] Entender a diferença entre JavaScript e TypeScript.
-- [ ] Conhecer as vantagens do TypeScript.
-- [ ] Entender o funcionamento do compilador `tsc`.
-- [ ] Conhecer o Node.js e sua relação com TypeScript.
-- [ ] Configurar o ambiente de desenvolvimento.
-- [ ] Configurar o `tsconfig.json`.
-- [ ] Entender a compilação de `.ts` para `.js`.
-- [ ] Conhecer as formas de executar arquivos TypeScript.
+- [X] Entender o que é TypeScript.
+- [X] Entender a diferença entre JavaScript e TypeScript.
+- [X] Conhecer as vantagens do TypeScript.
+- [X] Entender o funcionamento do compilador `tsc`.
+- [X] Conhecer o Node.js e sua relação com TypeScript.
+- [X] Configurar o ambiente de desenvolvimento.
+- [X] Configurar o `tsconfig.json`.
+- [X] Entender a compilação de `.ts` para `.js`.
+- [X] Conhecer as formas de executar arquivos TypeScript.
 
 **Projeto 01:** Primeiro programa em TypeScript.
 
@@ -24,12 +28,12 @@
 
 # Fase 1 — Revisão dos fundamentos de JavaScript
 
-- [ ] Variáveis (`let` e `const`).
-- [ ] Tipos primitivos.
-- [ ] Operadores aritméticos e lógicos.
-- [ ] Estruturas condicionais (`if`, `else` e `switch`).
-- [ ] Estruturas de repetição (`for`, `while` e `forEach`).
-- [ ] Funções.
+- [X] Variáveis (`let` e `const`).
+- [X] Tipos primitivos.
+- [X] Operadores aritméticos e lógicos.
+- [X] Estruturas condicionais (`if`, `else` e `switch`).
+- [X] Estruturas de repetição (`for`, `while` e `forEach`).
+- [X] Funções.
 - [ ] Arrow Functions.
 - [ ] Arrays.
 - [ ] Objetos.
@@ -44,13 +48,13 @@
 
 # Fase 2 — Fundamentos de TypeScript
 
-- [ ] Tipagem estática.
-- [ ] Inferência de tipos.
-- [ ] Tipos `string`, `number` e `boolean`.
-- [ ] Tipagem de variáveis.
-- [ ] Tipagem de parâmetros.
-- [ ] Tipagem de retorno de funções.
-- [ ] Tipo `void`.
+- [X] Tipagem estática.
+- [X] Inferência de tipos.
+- [X] Tipos `string`, `number` e `boolean`.
+- [X] Tipagem de variáveis.
+- [X] Tipagem de parâmetros.
+- [X] Tipagem de retorno de funções.
+- [X] Tipo `void`.
 - [ ] Tipo `any` e seus problemas.
 - [ ] Tipo `unknown`.
 - [ ] Tipo `never`.
