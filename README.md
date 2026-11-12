@@ -2,7 +2,7 @@
 
 Repositório destinado aos estudos, atividades e exercícios desenvolvidos durante o curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
 
-Aqui estão organizados códigos desenvolvidos durante as aulas, tarefas de casa, exercícios práticos e desafios propostos pelos professores.
+Aqui estão organizados códigos desenvolvidos durante as aulas, tarefas de casa, exercícios,estudos por fora da faculdade ,práticas e desafios propostos pelos professores.
 
 ---
 
